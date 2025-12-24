@@ -1,0 +1,405 @@
+{"ts_ms":0,"event":"info","type":"start","message":"Starting synchronous replication simulator (strict sync)."}
+{"ts_ms":0,"event":"info","type":"write","message":"Issued write lsn=1 key=key_0"}
+{"ts_ms":18,"event":"write_result","lsn":1,"key":"key_0","outcome":"COMMITTED","start_ms":0,"end_ms":18,"latency_ms":18,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":19,"event":"info","type":"write","message":"Issued write lsn=2 key=key_1"}
+{"ts_ms":36,"event":"write_result","lsn":2,"key":"key_1","outcome":"COMMITTED","start_ms":19,"end_ms":36,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":37,"event":"info","type":"write","message":"Issued write lsn=3 key=key_2"}
+{"ts_ms":55,"event":"write_result","lsn":3,"key":"key_2","outcome":"COMMITTED","start_ms":37,"end_ms":55,"latency_ms":18,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":56,"event":"info","type":"write","message":"Issued write lsn=4 key=key_3"}
+{"ts_ms":73,"event":"write_result","lsn":4,"key":"key_3","outcome":"COMMITTED","start_ms":56,"end_ms":73,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":74,"event":"info","type":"write","message":"Issued write lsn=5 key=key_4"}
+{"ts_ms":89,"event":"write_result","lsn":5,"key":"key_4","outcome":"COMMITTED","start_ms":74,"end_ms":89,"latency_ms":15,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":90,"event":"info","type":"write","message":"Issued write lsn=6 key=key_5"}
+{"ts_ms":107,"event":"write_result","lsn":6,"key":"key_5","outcome":"COMMITTED","start_ms":90,"end_ms":107,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":108,"event":"info","type":"write","message":"Issued write lsn=7 key=key_6"}
+{"ts_ms":126,"event":"write_result","lsn":7,"key":"key_6","outcome":"COMMITTED","start_ms":108,"end_ms":126,"latency_ms":18,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":127,"event":"info","type":"write","message":"Issued write lsn=8 key=key_7"}
+{"ts_ms":143,"event":"write_result","lsn":8,"key":"key_7","outcome":"COMMITTED","start_ms":127,"end_ms":143,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":144,"event":"info","type":"write","message":"Issued write lsn=9 key=key_8"}
+{"ts_ms":156,"event":"write_result","lsn":9,"key":"key_8","outcome":"COMMITTED","start_ms":144,"end_ms":156,"latency_ms":12,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":157,"event":"info","type":"write","message":"Issued write lsn=10 key=key_9"}
+{"ts_ms":175,"event":"write_result","lsn":10,"key":"key_9","outcome":"COMMITTED","start_ms":157,"end_ms":175,"latency_ms":18,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":176,"event":"info","type":"write","message":"Issued write lsn=11 key=key_10"}
+{"ts_ms":190,"event":"write_result","lsn":11,"key":"key_10","outcome":"COMMITTED","start_ms":176,"end_ms":190,"latency_ms":14,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":191,"event":"info","type":"write","message":"Issued write lsn=12 key=key_11"}
+{"ts_ms":211,"event":"write_result","lsn":12,"key":"key_11","outcome":"COMMITTED","start_ms":191,"end_ms":211,"latency_ms":20,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":212,"event":"info","type":"write","message":"Issued write lsn=13 key=key_12"}
+{"ts_ms":229,"event":"write_result","lsn":13,"key":"key_12","outcome":"COMMITTED","start_ms":212,"end_ms":229,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":230,"event":"info","type":"write","message":"Issued write lsn=14 key=key_13"}
+{"ts_ms":250,"event":"write_result","lsn":14,"key":"key_13","outcome":"COMMITTED","start_ms":230,"end_ms":250,"latency_ms":20,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":251,"event":"info","type":"write","message":"Issued write lsn=15 key=key_14"}
+{"ts_ms":268,"event":"write_result","lsn":15,"key":"key_14","outcome":"COMMITTED","start_ms":251,"end_ms":268,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":269,"event":"info","type":"write","message":"Issued write lsn=16 key=key_15"}
+{"ts_ms":284,"event":"write_result","lsn":16,"key":"key_15","outcome":"COMMITTED","start_ms":269,"end_ms":284,"latency_ms":15,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":285,"event":"info","type":"write","message":"Issued write lsn=17 key=key_16"}
+{"ts_ms":301,"event":"write_result","lsn":17,"key":"key_16","outcome":"COMMITTED","start_ms":285,"end_ms":301,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":302,"event":"info","type":"write","message":"Issued write lsn=18 key=key_17"}
+{"ts_ms":318,"event":"write_result","lsn":18,"key":"key_17","outcome":"COMMITTED","start_ms":302,"end_ms":318,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":319,"event":"info","type":"write","message":"Issued write lsn=19 key=key_18"}
+{"ts_ms":337,"event":"write_result","lsn":19,"key":"key_18","outcome":"COMMITTED","start_ms":319,"end_ms":337,"latency_ms":18,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":338,"event":"info","type":"write","message":"Issued write lsn=20 key=key_19"}
+{"ts_ms":355,"event":"write_result","lsn":20,"key":"key_19","outcome":"COMMITTED","start_ms":338,"end_ms":355,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":356,"event":"info","type":"write","message":"Issued write lsn=21 key=key_20"}
+{"ts_ms":372,"event":"write_result","lsn":21,"key":"key_20","outcome":"COMMITTED","start_ms":356,"end_ms":372,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":373,"event":"info","type":"write","message":"Issued write lsn=22 key=key_21"}
+{"ts_ms":392,"event":"write_result","lsn":22,"key":"key_21","outcome":"COMMITTED","start_ms":373,"end_ms":392,"latency_ms":19,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":393,"event":"info","type":"write","message":"Issued write lsn=23 key=key_22"}
+{"ts_ms":408,"event":"write_result","lsn":23,"key":"key_22","outcome":"COMMITTED","start_ms":393,"end_ms":408,"latency_ms":15,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":409,"event":"info","type":"write","message":"Issued write lsn=24 key=key_23"}
+{"ts_ms":423,"event":"write_result","lsn":24,"key":"key_23","outcome":"COMMITTED","start_ms":409,"end_ms":423,"latency_ms":14,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":424,"event":"info","type":"write","message":"Issued write lsn=25 key=key_24"}
+{"ts_ms":436,"event":"write_result","lsn":25,"key":"key_24","outcome":"COMMITTED","start_ms":424,"end_ms":436,"latency_ms":12,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":437,"event":"info","type":"write","message":"Issued write lsn=26 key=key_0"}
+{"ts_ms":453,"event":"write_result","lsn":26,"key":"key_0","outcome":"COMMITTED","start_ms":437,"end_ms":453,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":454,"event":"info","type":"write","message":"Issued write lsn=27 key=key_1"}
+{"ts_ms":471,"event":"write_result","lsn":27,"key":"key_1","outcome":"COMMITTED","start_ms":454,"end_ms":471,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":472,"event":"info","type":"write","message":"Issued write lsn=28 key=key_2"}
+{"ts_ms":486,"event":"write_result","lsn":28,"key":"key_2","outcome":"COMMITTED","start_ms":472,"end_ms":486,"latency_ms":14,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":487,"event":"info","type":"write","message":"Issued write lsn=29 key=key_3"}
+{"ts_ms":503,"event":"write_result","lsn":29,"key":"key_3","outcome":"COMMITTED","start_ms":487,"end_ms":503,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":504,"event":"info","type":"write","message":"Issued write lsn=30 key=key_4"}
+{"ts_ms":517,"event":"write_result","lsn":30,"key":"key_4","outcome":"COMMITTED","start_ms":504,"end_ms":517,"latency_ms":13,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":518,"event":"info","type":"write","message":"Issued write lsn=31 key=key_5"}
+{"ts_ms":532,"event":"write_result","lsn":31,"key":"key_5","outcome":"COMMITTED","start_ms":518,"end_ms":532,"latency_ms":14,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":533,"event":"info","type":"write","message":"Issued write lsn=32 key=key_6"}
+{"ts_ms":551,"event":"write_result","lsn":32,"key":"key_6","outcome":"COMMITTED","start_ms":533,"end_ms":551,"latency_ms":18,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":552,"event":"info","type":"write","message":"Issued write lsn=33 key=key_7"}
+{"ts_ms":572,"event":"write_result","lsn":33,"key":"key_7","outcome":"COMMITTED","start_ms":552,"end_ms":572,"latency_ms":20,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":573,"event":"info","type":"write","message":"Issued write lsn=34 key=key_8"}
+{"ts_ms":588,"event":"write_result","lsn":34,"key":"key_8","outcome":"COMMITTED","start_ms":573,"end_ms":588,"latency_ms":15,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":589,"event":"info","type":"write","message":"Issued write lsn=35 key=key_9"}
+{"ts_ms":605,"event":"write_result","lsn":35,"key":"key_9","outcome":"COMMITTED","start_ms":589,"end_ms":605,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":606,"event":"info","type":"write","message":"Issued write lsn=36 key=key_10"}
+{"ts_ms":619,"event":"write_result","lsn":36,"key":"key_10","outcome":"COMMITTED","start_ms":606,"end_ms":619,"latency_ms":13,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":620,"event":"info","type":"write","message":"Issued write lsn=37 key=key_11"}
+{"ts_ms":637,"event":"write_result","lsn":37,"key":"key_11","outcome":"COMMITTED","start_ms":620,"end_ms":637,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":638,"event":"info","type":"write","message":"Issued write lsn=38 key=key_12"}
+{"ts_ms":654,"event":"write_result","lsn":38,"key":"key_12","outcome":"COMMITTED","start_ms":638,"end_ms":654,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":655,"event":"info","type":"write","message":"Issued write lsn=39 key=key_13"}
+{"ts_ms":672,"event":"write_result","lsn":39,"key":"key_13","outcome":"COMMITTED","start_ms":655,"end_ms":672,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":673,"event":"info","type":"write","message":"Issued write lsn=40 key=key_14"}
+{"ts_ms":688,"event":"write_result","lsn":40,"key":"key_14","outcome":"COMMITTED","start_ms":673,"end_ms":688,"latency_ms":15,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":689,"event":"info","type":"write","message":"Issued write lsn=41 key=key_15"}
+{"ts_ms":704,"event":"write_result","lsn":41,"key":"key_15","outcome":"COMMITTED","start_ms":689,"end_ms":704,"latency_ms":15,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":705,"event":"info","type":"write","message":"Issued write lsn=42 key=key_16"}
+{"ts_ms":724,"event":"write_result","lsn":42,"key":"key_16","outcome":"COMMITTED","start_ms":705,"end_ms":724,"latency_ms":19,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":725,"event":"info","type":"write","message":"Issued write lsn=43 key=key_17"}
+{"ts_ms":738,"event":"write_result","lsn":43,"key":"key_17","outcome":"COMMITTED","start_ms":725,"end_ms":738,"latency_ms":13,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":739,"event":"info","type":"write","message":"Issued write lsn=44 key=key_18"}
+{"ts_ms":755,"event":"write_result","lsn":44,"key":"key_18","outcome":"COMMITTED","start_ms":739,"end_ms":755,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":756,"event":"info","type":"write","message":"Issued write lsn=45 key=key_19"}
+{"ts_ms":770,"event":"write_result","lsn":45,"key":"key_19","outcome":"COMMITTED","start_ms":756,"end_ms":770,"latency_ms":14,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":771,"event":"info","type":"write","message":"Issued write lsn=46 key=key_20"}
+{"ts_ms":788,"event":"write_result","lsn":46,"key":"key_20","outcome":"COMMITTED","start_ms":771,"end_ms":788,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":789,"event":"info","type":"write","message":"Issued write lsn=47 key=key_21"}
+{"ts_ms":800,"event":"info","type":"network","message":"Partition ENABLED (Primary <-> Secondary disconnected)."}
+{"ts_ms":804,"event":"write_result","lsn":47,"key":"key_21","outcome":"COMMITTED","start_ms":789,"end_ms":804,"latency_ms":15,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":805,"event":"info","type":"write","message":"Issued write lsn=48 key=key_22"}
+{"ts_ms":1300,"event":"info","type":"network","message":"Partition DISABLED (Primary <-> Secondary reconnected)."}
+{"ts_ms":1300,"event":"info","type":"resync","message":"Secondary requested resync from its last_applied_lsn."}
+{"ts_ms":1328,"event":"write_result","lsn":48,"key":"key_22","outcome":"COMMITTED","start_ms":805,"end_ms":1328,"latency_ms":523,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1329,"event":"info","type":"write","message":"Issued write lsn=49 key=key_23"}
+{"ts_ms":1346,"event":"write_result","lsn":49,"key":"key_23","outcome":"COMMITTED","start_ms":1329,"end_ms":1346,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1347,"event":"info","type":"write","message":"Issued write lsn=50 key=key_24"}
+{"ts_ms":1359,"event":"write_result","lsn":50,"key":"key_24","outcome":"COMMITTED","start_ms":1347,"end_ms":1359,"latency_ms":12,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1360,"event":"info","type":"write","message":"Issued write lsn=51 key=key_0"}
+{"ts_ms":1380,"event":"write_result","lsn":51,"key":"key_0","outcome":"COMMITTED","start_ms":1360,"end_ms":1380,"latency_ms":20,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1381,"event":"info","type":"write","message":"Issued write lsn=52 key=key_1"}
+{"ts_ms":1397,"event":"write_result","lsn":52,"key":"key_1","outcome":"COMMITTED","start_ms":1381,"end_ms":1397,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1398,"event":"info","type":"write","message":"Issued write lsn=53 key=key_2"}
+{"ts_ms":1414,"event":"write_result","lsn":53,"key":"key_2","outcome":"COMMITTED","start_ms":1398,"end_ms":1414,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1415,"event":"info","type":"write","message":"Issued write lsn=54 key=key_3"}
+{"ts_ms":1431,"event":"write_result","lsn":54,"key":"key_3","outcome":"COMMITTED","start_ms":1415,"end_ms":1431,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1432,"event":"info","type":"write","message":"Issued write lsn=55 key=key_4"}
+{"ts_ms":1446,"event":"write_result","lsn":55,"key":"key_4","outcome":"COMMITTED","start_ms":1432,"end_ms":1446,"latency_ms":14,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1447,"event":"info","type":"write","message":"Issued write lsn=56 key=key_5"}
+{"ts_ms":1466,"event":"write_result","lsn":56,"key":"key_5","outcome":"COMMITTED","start_ms":1447,"end_ms":1466,"latency_ms":19,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1467,"event":"info","type":"write","message":"Issued write lsn=57 key=key_6"}
+{"ts_ms":1486,"event":"write_result","lsn":57,"key":"key_6","outcome":"COMMITTED","start_ms":1467,"end_ms":1486,"latency_ms":19,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1487,"event":"info","type":"write","message":"Issued write lsn=58 key=key_7"}
+{"ts_ms":1500,"event":"write_result","lsn":58,"key":"key_7","outcome":"COMMITTED","start_ms":1487,"end_ms":1500,"latency_ms":13,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1501,"event":"info","type":"write","message":"Issued write lsn=59 key=key_8"}
+{"ts_ms":1515,"event":"write_result","lsn":59,"key":"key_8","outcome":"COMMITTED","start_ms":1501,"end_ms":1515,"latency_ms":14,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1516,"event":"info","type":"write","message":"Issued write lsn=60 key=key_9"}
+{"ts_ms":1535,"event":"write_result","lsn":60,"key":"key_9","outcome":"COMMITTED","start_ms":1516,"end_ms":1535,"latency_ms":19,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1536,"event":"info","type":"write","message":"Issued write lsn=61 key=key_10"}
+{"ts_ms":1552,"event":"write_result","lsn":61,"key":"key_10","outcome":"COMMITTED","start_ms":1536,"end_ms":1552,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1553,"event":"info","type":"write","message":"Issued write lsn=62 key=key_11"}
+{"ts_ms":1565,"event":"write_result","lsn":62,"key":"key_11","outcome":"COMMITTED","start_ms":1553,"end_ms":1565,"latency_ms":12,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1566,"event":"info","type":"write","message":"Issued write lsn=63 key=key_12"}
+{"ts_ms":1581,"event":"write_result","lsn":63,"key":"key_12","outcome":"COMMITTED","start_ms":1566,"end_ms":1581,"latency_ms":15,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1582,"event":"info","type":"write","message":"Issued write lsn=64 key=key_13"}
+{"ts_ms":1598,"event":"write_result","lsn":64,"key":"key_13","outcome":"COMMITTED","start_ms":1582,"end_ms":1598,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1599,"event":"info","type":"write","message":"Issued write lsn=65 key=key_14"}
+{"ts_ms":1617,"event":"write_result","lsn":65,"key":"key_14","outcome":"COMMITTED","start_ms":1599,"end_ms":1617,"latency_ms":18,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1618,"event":"info","type":"write","message":"Issued write lsn=66 key=key_15"}
+{"ts_ms":1630,"event":"write_result","lsn":66,"key":"key_15","outcome":"COMMITTED","start_ms":1618,"end_ms":1630,"latency_ms":12,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1631,"event":"info","type":"write","message":"Issued write lsn=67 key=key_16"}
+{"ts_ms":1646,"event":"write_result","lsn":67,"key":"key_16","outcome":"COMMITTED","start_ms":1631,"end_ms":1646,"latency_ms":15,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1647,"event":"info","type":"write","message":"Issued write lsn=68 key=key_17"}
+{"ts_ms":1665,"event":"write_result","lsn":68,"key":"key_17","outcome":"COMMITTED","start_ms":1647,"end_ms":1665,"latency_ms":18,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1666,"event":"info","type":"write","message":"Issued write lsn=69 key=key_18"}
+{"ts_ms":1683,"event":"write_result","lsn":69,"key":"key_18","outcome":"COMMITTED","start_ms":1666,"end_ms":1683,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1684,"event":"info","type":"write","message":"Issued write lsn=70 key=key_19"}
+{"ts_ms":1698,"event":"write_result","lsn":70,"key":"key_19","outcome":"COMMITTED","start_ms":1684,"end_ms":1698,"latency_ms":14,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1699,"event":"info","type":"write","message":"Issued write lsn=71 key=key_20"}
+{"ts_ms":1711,"event":"write_result","lsn":71,"key":"key_20","outcome":"COMMITTED","start_ms":1699,"end_ms":1711,"latency_ms":12,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1712,"event":"info","type":"write","message":"Issued write lsn=72 key=key_21"}
+{"ts_ms":1732,"event":"write_result","lsn":72,"key":"key_21","outcome":"COMMITTED","start_ms":1712,"end_ms":1732,"latency_ms":20,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1733,"event":"info","type":"write","message":"Issued write lsn=73 key=key_22"}
+{"ts_ms":1747,"event":"write_result","lsn":73,"key":"key_22","outcome":"COMMITTED","start_ms":1733,"end_ms":1747,"latency_ms":14,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1748,"event":"info","type":"write","message":"Issued write lsn=74 key=key_23"}
+{"ts_ms":1763,"event":"write_result","lsn":74,"key":"key_23","outcome":"COMMITTED","start_ms":1748,"end_ms":1763,"latency_ms":15,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1764,"event":"info","type":"write","message":"Issued write lsn=75 key=key_24"}
+{"ts_ms":1778,"event":"write_result","lsn":75,"key":"key_24","outcome":"COMMITTED","start_ms":1764,"end_ms":1778,"latency_ms":14,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1779,"event":"info","type":"write","message":"Issued write lsn=76 key=key_0"}
+{"ts_ms":1797,"event":"write_result","lsn":76,"key":"key_0","outcome":"COMMITTED","start_ms":1779,"end_ms":1797,"latency_ms":18,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1798,"event":"info","type":"write","message":"Issued write lsn=77 key=key_1"}
+{"ts_ms":1811,"event":"write_result","lsn":77,"key":"key_1","outcome":"COMMITTED","start_ms":1798,"end_ms":1811,"latency_ms":13,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1812,"event":"info","type":"write","message":"Issued write lsn=78 key=key_2"}
+{"ts_ms":1826,"event":"write_result","lsn":78,"key":"key_2","outcome":"COMMITTED","start_ms":1812,"end_ms":1826,"latency_ms":14,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1827,"event":"info","type":"write","message":"Issued write lsn=79 key=key_3"}
+{"ts_ms":1839,"event":"write_result","lsn":79,"key":"key_3","outcome":"COMMITTED","start_ms":1827,"end_ms":1839,"latency_ms":12,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1840,"event":"info","type":"write","message":"Issued write lsn=80 key=key_4"}
+{"ts_ms":1852,"event":"write_result","lsn":80,"key":"key_4","outcome":"COMMITTED","start_ms":1840,"end_ms":1852,"latency_ms":12,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1853,"event":"info","type":"write","message":"Issued write lsn=81 key=key_5"}
+{"ts_ms":1871,"event":"write_result","lsn":81,"key":"key_5","outcome":"COMMITTED","start_ms":1853,"end_ms":1871,"latency_ms":18,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1872,"event":"info","type":"write","message":"Issued write lsn=82 key=key_6"}
+{"ts_ms":1887,"event":"write_result","lsn":82,"key":"key_6","outcome":"COMMITTED","start_ms":1872,"end_ms":1887,"latency_ms":15,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1888,"event":"info","type":"write","message":"Issued write lsn=83 key=key_7"}
+{"ts_ms":1905,"event":"write_result","lsn":83,"key":"key_7","outcome":"COMMITTED","start_ms":1888,"end_ms":1905,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1906,"event":"info","type":"write","message":"Issued write lsn=84 key=key_8"}
+{"ts_ms":1925,"event":"write_result","lsn":84,"key":"key_8","outcome":"COMMITTED","start_ms":1906,"end_ms":1925,"latency_ms":19,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1926,"event":"info","type":"write","message":"Issued write lsn=85 key=key_9"}
+{"ts_ms":1942,"event":"write_result","lsn":85,"key":"key_9","outcome":"COMMITTED","start_ms":1926,"end_ms":1942,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1943,"event":"info","type":"write","message":"Issued write lsn=86 key=key_10"}
+{"ts_ms":1955,"event":"write_result","lsn":86,"key":"key_10","outcome":"COMMITTED","start_ms":1943,"end_ms":1955,"latency_ms":12,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1956,"event":"info","type":"write","message":"Issued write lsn=87 key=key_11"}
+{"ts_ms":1968,"event":"write_result","lsn":87,"key":"key_11","outcome":"COMMITTED","start_ms":1956,"end_ms":1968,"latency_ms":12,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1969,"event":"info","type":"write","message":"Issued write lsn=88 key=key_12"}
+{"ts_ms":1982,"event":"write_result","lsn":88,"key":"key_12","outcome":"COMMITTED","start_ms":1969,"end_ms":1982,"latency_ms":13,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":1983,"event":"info","type":"write","message":"Issued write lsn=89 key=key_13"}
+{"ts_ms":2002,"event":"write_result","lsn":89,"key":"key_13","outcome":"COMMITTED","start_ms":1983,"end_ms":2002,"latency_ms":19,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2003,"event":"info","type":"write","message":"Issued write lsn=90 key=key_14"}
+{"ts_ms":2017,"event":"write_result","lsn":90,"key":"key_14","outcome":"COMMITTED","start_ms":2003,"end_ms":2017,"latency_ms":14,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2018,"event":"info","type":"write","message":"Issued write lsn=91 key=key_15"}
+{"ts_ms":2035,"event":"write_result","lsn":91,"key":"key_15","outcome":"COMMITTED","start_ms":2018,"end_ms":2035,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2036,"event":"info","type":"write","message":"Issued write lsn=92 key=key_16"}
+{"ts_ms":2053,"event":"write_result","lsn":92,"key":"key_16","outcome":"COMMITTED","start_ms":2036,"end_ms":2053,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2054,"event":"info","type":"write","message":"Issued write lsn=93 key=key_17"}
+{"ts_ms":2072,"event":"write_result","lsn":93,"key":"key_17","outcome":"COMMITTED","start_ms":2054,"end_ms":2072,"latency_ms":18,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2073,"event":"info","type":"write","message":"Issued write lsn=94 key=key_18"}
+{"ts_ms":2092,"event":"write_result","lsn":94,"key":"key_18","outcome":"COMMITTED","start_ms":2073,"end_ms":2092,"latency_ms":19,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2093,"event":"info","type":"write","message":"Issued write lsn=95 key=key_19"}
+{"ts_ms":2112,"event":"write_result","lsn":95,"key":"key_19","outcome":"COMMITTED","start_ms":2093,"end_ms":2112,"latency_ms":19,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2113,"event":"info","type":"write","message":"Issued write lsn=96 key=key_20"}
+{"ts_ms":2129,"event":"write_result","lsn":96,"key":"key_20","outcome":"COMMITTED","start_ms":2113,"end_ms":2129,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2130,"event":"info","type":"write","message":"Issued write lsn=97 key=key_21"}
+{"ts_ms":2147,"event":"write_result","lsn":97,"key":"key_21","outcome":"COMMITTED","start_ms":2130,"end_ms":2147,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2148,"event":"info","type":"write","message":"Issued write lsn=98 key=key_22"}
+{"ts_ms":2167,"event":"write_result","lsn":98,"key":"key_22","outcome":"COMMITTED","start_ms":2148,"end_ms":2167,"latency_ms":19,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2168,"event":"info","type":"write","message":"Issued write lsn=99 key=key_23"}
+{"ts_ms":2187,"event":"write_result","lsn":99,"key":"key_23","outcome":"COMMITTED","start_ms":2168,"end_ms":2187,"latency_ms":19,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2188,"event":"info","type":"write","message":"Issued write lsn=100 key=key_24"}
+{"ts_ms":2207,"event":"write_result","lsn":100,"key":"key_24","outcome":"COMMITTED","start_ms":2188,"end_ms":2207,"latency_ms":19,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2208,"event":"info","type":"write","message":"Issued write lsn=101 key=key_0"}
+{"ts_ms":2225,"event":"write_result","lsn":101,"key":"key_0","outcome":"COMMITTED","start_ms":2208,"end_ms":2225,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2226,"event":"info","type":"write","message":"Issued write lsn=102 key=key_1"}
+{"ts_ms":2244,"event":"write_result","lsn":102,"key":"key_1","outcome":"COMMITTED","start_ms":2226,"end_ms":2244,"latency_ms":18,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2245,"event":"info","type":"write","message":"Issued write lsn=103 key=key_2"}
+{"ts_ms":2260,"event":"write_result","lsn":103,"key":"key_2","outcome":"COMMITTED","start_ms":2245,"end_ms":2260,"latency_ms":15,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2261,"event":"info","type":"write","message":"Issued write lsn=104 key=key_3"}
+{"ts_ms":2276,"event":"write_result","lsn":104,"key":"key_3","outcome":"COMMITTED","start_ms":2261,"end_ms":2276,"latency_ms":15,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2277,"event":"info","type":"write","message":"Issued write lsn=105 key=key_4"}
+{"ts_ms":2297,"event":"write_result","lsn":105,"key":"key_4","outcome":"COMMITTED","start_ms":2277,"end_ms":2297,"latency_ms":20,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2298,"event":"info","type":"write","message":"Issued write lsn=106 key=key_5"}
+{"ts_ms":2313,"event":"write_result","lsn":106,"key":"key_5","outcome":"COMMITTED","start_ms":2298,"end_ms":2313,"latency_ms":15,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2314,"event":"info","type":"write","message":"Issued write lsn=107 key=key_6"}
+{"ts_ms":2329,"event":"write_result","lsn":107,"key":"key_6","outcome":"COMMITTED","start_ms":2314,"end_ms":2329,"latency_ms":15,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2330,"event":"info","type":"write","message":"Issued write lsn=108 key=key_7"}
+{"ts_ms":2346,"event":"write_result","lsn":108,"key":"key_7","outcome":"COMMITTED","start_ms":2330,"end_ms":2346,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2347,"event":"info","type":"write","message":"Issued write lsn=109 key=key_8"}
+{"ts_ms":2364,"event":"write_result","lsn":109,"key":"key_8","outcome":"COMMITTED","start_ms":2347,"end_ms":2364,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2365,"event":"info","type":"write","message":"Issued write lsn=110 key=key_9"}
+{"ts_ms":2377,"event":"write_result","lsn":110,"key":"key_9","outcome":"COMMITTED","start_ms":2365,"end_ms":2377,"latency_ms":12,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2378,"event":"info","type":"write","message":"Issued write lsn=111 key=key_10"}
+{"ts_ms":2394,"event":"write_result","lsn":111,"key":"key_10","outcome":"COMMITTED","start_ms":2378,"end_ms":2394,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2395,"event":"info","type":"write","message":"Issued write lsn=112 key=key_11"}
+{"ts_ms":2414,"event":"write_result","lsn":112,"key":"key_11","outcome":"COMMITTED","start_ms":2395,"end_ms":2414,"latency_ms":19,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2415,"event":"info","type":"write","message":"Issued write lsn=113 key=key_12"}
+{"ts_ms":2434,"event":"write_result","lsn":113,"key":"key_12","outcome":"COMMITTED","start_ms":2415,"end_ms":2434,"latency_ms":19,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2435,"event":"info","type":"write","message":"Issued write lsn=114 key=key_13"}
+{"ts_ms":2449,"event":"write_result","lsn":114,"key":"key_13","outcome":"COMMITTED","start_ms":2435,"end_ms":2449,"latency_ms":14,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2450,"event":"info","type":"write","message":"Issued write lsn=115 key=key_14"}
+{"ts_ms":2465,"event":"write_result","lsn":115,"key":"key_14","outcome":"COMMITTED","start_ms":2450,"end_ms":2465,"latency_ms":15,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2466,"event":"info","type":"write","message":"Issued write lsn=116 key=key_15"}
+{"ts_ms":2480,"event":"write_result","lsn":116,"key":"key_15","outcome":"COMMITTED","start_ms":2466,"end_ms":2480,"latency_ms":14,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2481,"event":"info","type":"write","message":"Issued write lsn=117 key=key_16"}
+{"ts_ms":2496,"event":"write_result","lsn":117,"key":"key_16","outcome":"COMMITTED","start_ms":2481,"end_ms":2496,"latency_ms":15,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2497,"event":"info","type":"write","message":"Issued write lsn=118 key=key_17"}
+{"ts_ms":2513,"event":"write_result","lsn":118,"key":"key_17","outcome":"COMMITTED","start_ms":2497,"end_ms":2513,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2514,"event":"info","type":"write","message":"Issued write lsn=119 key=key_18"}
+{"ts_ms":2529,"event":"write_result","lsn":119,"key":"key_18","outcome":"COMMITTED","start_ms":2514,"end_ms":2529,"latency_ms":15,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2530,"event":"info","type":"write","message":"Issued write lsn=120 key=key_19"}
+{"ts_ms":2548,"event":"write_result","lsn":120,"key":"key_19","outcome":"COMMITTED","start_ms":2530,"end_ms":2548,"latency_ms":18,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2549,"event":"info","type":"write","message":"Issued write lsn=121 key=key_20"}
+{"ts_ms":2565,"event":"write_result","lsn":121,"key":"key_20","outcome":"COMMITTED","start_ms":2549,"end_ms":2565,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2566,"event":"info","type":"write","message":"Issued write lsn=122 key=key_21"}
+{"ts_ms":2582,"event":"write_result","lsn":122,"key":"key_21","outcome":"COMMITTED","start_ms":2566,"end_ms":2582,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2583,"event":"info","type":"write","message":"Issued write lsn=123 key=key_22"}
+{"ts_ms":2598,"event":"write_result","lsn":123,"key":"key_22","outcome":"COMMITTED","start_ms":2583,"end_ms":2598,"latency_ms":15,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2599,"event":"info","type":"write","message":"Issued write lsn=124 key=key_23"}
+{"ts_ms":2613,"event":"write_result","lsn":124,"key":"key_23","outcome":"COMMITTED","start_ms":2599,"end_ms":2613,"latency_ms":14,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2614,"event":"info","type":"write","message":"Issued write lsn=125 key=key_24"}
+{"ts_ms":2631,"event":"write_result","lsn":125,"key":"key_24","outcome":"COMMITTED","start_ms":2614,"end_ms":2631,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2632,"event":"info","type":"write","message":"Issued write lsn=126 key=key_0"}
+{"ts_ms":2649,"event":"write_result","lsn":126,"key":"key_0","outcome":"COMMITTED","start_ms":2632,"end_ms":2649,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2650,"event":"info","type":"write","message":"Issued write lsn=127 key=key_1"}
+{"ts_ms":2664,"event":"write_result","lsn":127,"key":"key_1","outcome":"COMMITTED","start_ms":2650,"end_ms":2664,"latency_ms":14,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2665,"event":"info","type":"write","message":"Issued write lsn=128 key=key_2"}
+{"ts_ms":2682,"event":"write_result","lsn":128,"key":"key_2","outcome":"COMMITTED","start_ms":2665,"end_ms":2682,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2683,"event":"info","type":"write","message":"Issued write lsn=129 key=key_3"}
+{"ts_ms":2698,"event":"write_result","lsn":129,"key":"key_3","outcome":"COMMITTED","start_ms":2683,"end_ms":2698,"latency_ms":15,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2699,"event":"info","type":"write","message":"Issued write lsn=130 key=key_4"}
+{"ts_ms":2713,"event":"write_result","lsn":130,"key":"key_4","outcome":"COMMITTED","start_ms":2699,"end_ms":2713,"latency_ms":14,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2714,"event":"info","type":"write","message":"Issued write lsn=131 key=key_5"}
+{"ts_ms":2729,"event":"write_result","lsn":131,"key":"key_5","outcome":"COMMITTED","start_ms":2714,"end_ms":2729,"latency_ms":15,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2730,"event":"info","type":"write","message":"Issued write lsn=132 key=key_6"}
+{"ts_ms":2743,"event":"write_result","lsn":132,"key":"key_6","outcome":"COMMITTED","start_ms":2730,"end_ms":2743,"latency_ms":13,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2744,"event":"info","type":"write","message":"Issued write lsn=133 key=key_7"}
+{"ts_ms":2763,"event":"write_result","lsn":133,"key":"key_7","outcome":"COMMITTED","start_ms":2744,"end_ms":2763,"latency_ms":19,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2764,"event":"info","type":"write","message":"Issued write lsn=134 key=key_8"}
+{"ts_ms":2781,"event":"write_result","lsn":134,"key":"key_8","outcome":"COMMITTED","start_ms":2764,"end_ms":2781,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2782,"event":"info","type":"write","message":"Issued write lsn=135 key=key_9"}
+{"ts_ms":2796,"event":"write_result","lsn":135,"key":"key_9","outcome":"COMMITTED","start_ms":2782,"end_ms":2796,"latency_ms":14,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2797,"event":"info","type":"write","message":"Issued write lsn=136 key=key_10"}
+{"ts_ms":2812,"event":"write_result","lsn":136,"key":"key_10","outcome":"COMMITTED","start_ms":2797,"end_ms":2812,"latency_ms":15,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2813,"event":"info","type":"write","message":"Issued write lsn=137 key=key_11"}
+{"ts_ms":2826,"event":"write_result","lsn":137,"key":"key_11","outcome":"COMMITTED","start_ms":2813,"end_ms":2826,"latency_ms":13,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2827,"event":"info","type":"write","message":"Issued write lsn=138 key=key_12"}
+{"ts_ms":2844,"event":"write_result","lsn":138,"key":"key_12","outcome":"COMMITTED","start_ms":2827,"end_ms":2844,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2845,"event":"info","type":"write","message":"Issued write lsn=139 key=key_13"}
+{"ts_ms":2862,"event":"write_result","lsn":139,"key":"key_13","outcome":"COMMITTED","start_ms":2845,"end_ms":2862,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2863,"event":"info","type":"write","message":"Issued write lsn=140 key=key_14"}
+{"ts_ms":2879,"event":"write_result","lsn":140,"key":"key_14","outcome":"COMMITTED","start_ms":2863,"end_ms":2879,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2880,"event":"info","type":"write","message":"Issued write lsn=141 key=key_15"}
+{"ts_ms":2893,"event":"write_result","lsn":141,"key":"key_15","outcome":"COMMITTED","start_ms":2880,"end_ms":2893,"latency_ms":13,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2894,"event":"info","type":"write","message":"Issued write lsn=142 key=key_16"}
+{"ts_ms":2906,"event":"write_result","lsn":142,"key":"key_16","outcome":"COMMITTED","start_ms":2894,"end_ms":2906,"latency_ms":12,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2907,"event":"info","type":"write","message":"Issued write lsn=143 key=key_17"}
+{"ts_ms":2927,"event":"write_result","lsn":143,"key":"key_17","outcome":"COMMITTED","start_ms":2907,"end_ms":2927,"latency_ms":20,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2928,"event":"info","type":"write","message":"Issued write lsn=144 key=key_18"}
+{"ts_ms":2944,"event":"write_result","lsn":144,"key":"key_18","outcome":"COMMITTED","start_ms":2928,"end_ms":2944,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2945,"event":"info","type":"write","message":"Issued write lsn=145 key=key_19"}
+{"ts_ms":2960,"event":"write_result","lsn":145,"key":"key_19","outcome":"COMMITTED","start_ms":2945,"end_ms":2960,"latency_ms":15,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2961,"event":"info","type":"write","message":"Issued write lsn=146 key=key_20"}
+{"ts_ms":2976,"event":"write_result","lsn":146,"key":"key_20","outcome":"COMMITTED","start_ms":2961,"end_ms":2976,"latency_ms":15,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2977,"event":"info","type":"write","message":"Issued write lsn=147 key=key_21"}
+{"ts_ms":2990,"event":"write_result","lsn":147,"key":"key_21","outcome":"COMMITTED","start_ms":2977,"end_ms":2990,"latency_ms":13,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":2991,"event":"info","type":"write","message":"Issued write lsn=148 key=key_22"}
+{"ts_ms":3007,"event":"write_result","lsn":148,"key":"key_22","outcome":"COMMITTED","start_ms":2991,"end_ms":3007,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3008,"event":"info","type":"write","message":"Issued write lsn=149 key=key_23"}
+{"ts_ms":3026,"event":"write_result","lsn":149,"key":"key_23","outcome":"COMMITTED","start_ms":3008,"end_ms":3026,"latency_ms":18,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3027,"event":"info","type":"write","message":"Issued write lsn=150 key=key_24"}
+{"ts_ms":3045,"event":"write_result","lsn":150,"key":"key_24","outcome":"COMMITTED","start_ms":3027,"end_ms":3045,"latency_ms":18,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3046,"event":"info","type":"write","message":"Issued write lsn=151 key=key_0"}
+{"ts_ms":3064,"event":"write_result","lsn":151,"key":"key_0","outcome":"COMMITTED","start_ms":3046,"end_ms":3064,"latency_ms":18,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3065,"event":"info","type":"write","message":"Issued write lsn=152 key=key_1"}
+{"ts_ms":3080,"event":"write_result","lsn":152,"key":"key_1","outcome":"COMMITTED","start_ms":3065,"end_ms":3080,"latency_ms":15,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3081,"event":"info","type":"write","message":"Issued write lsn=153 key=key_2"}
+{"ts_ms":3100,"event":"write_result","lsn":153,"key":"key_2","outcome":"COMMITTED","start_ms":3081,"end_ms":3100,"latency_ms":19,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3101,"event":"info","type":"write","message":"Issued write lsn=154 key=key_3"}
+{"ts_ms":3118,"event":"write_result","lsn":154,"key":"key_3","outcome":"COMMITTED","start_ms":3101,"end_ms":3118,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3119,"event":"info","type":"write","message":"Issued write lsn=155 key=key_4"}
+{"ts_ms":3138,"event":"write_result","lsn":155,"key":"key_4","outcome":"COMMITTED","start_ms":3119,"end_ms":3138,"latency_ms":19,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3139,"event":"info","type":"write","message":"Issued write lsn=156 key=key_5"}
+{"ts_ms":3158,"event":"write_result","lsn":156,"key":"key_5","outcome":"COMMITTED","start_ms":3139,"end_ms":3158,"latency_ms":19,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3159,"event":"info","type":"write","message":"Issued write lsn=157 key=key_6"}
+{"ts_ms":3177,"event":"write_result","lsn":157,"key":"key_6","outcome":"COMMITTED","start_ms":3159,"end_ms":3177,"latency_ms":18,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3178,"event":"info","type":"write","message":"Issued write lsn=158 key=key_7"}
+{"ts_ms":3192,"event":"write_result","lsn":158,"key":"key_7","outcome":"COMMITTED","start_ms":3178,"end_ms":3192,"latency_ms":14,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3193,"event":"info","type":"write","message":"Issued write lsn=159 key=key_8"}
+{"ts_ms":3212,"event":"write_result","lsn":159,"key":"key_8","outcome":"COMMITTED","start_ms":3193,"end_ms":3212,"latency_ms":19,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3213,"event":"info","type":"write","message":"Issued write lsn=160 key=key_9"}
+{"ts_ms":3230,"event":"write_result","lsn":160,"key":"key_9","outcome":"COMMITTED","start_ms":3213,"end_ms":3230,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3231,"event":"info","type":"write","message":"Issued write lsn=161 key=key_10"}
+{"ts_ms":3247,"event":"write_result","lsn":161,"key":"key_10","outcome":"COMMITTED","start_ms":3231,"end_ms":3247,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3248,"event":"info","type":"write","message":"Issued write lsn=162 key=key_11"}
+{"ts_ms":3265,"event":"write_result","lsn":162,"key":"key_11","outcome":"COMMITTED","start_ms":3248,"end_ms":3265,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3266,"event":"info","type":"write","message":"Issued write lsn=163 key=key_12"}
+{"ts_ms":3282,"event":"write_result","lsn":163,"key":"key_12","outcome":"COMMITTED","start_ms":3266,"end_ms":3282,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3283,"event":"info","type":"write","message":"Issued write lsn=164 key=key_13"}
+{"ts_ms":3297,"event":"write_result","lsn":164,"key":"key_13","outcome":"COMMITTED","start_ms":3283,"end_ms":3297,"latency_ms":14,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3298,"event":"info","type":"write","message":"Issued write lsn=165 key=key_14"}
+{"ts_ms":3316,"event":"write_result","lsn":165,"key":"key_14","outcome":"COMMITTED","start_ms":3298,"end_ms":3316,"latency_ms":18,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3317,"event":"info","type":"write","message":"Issued write lsn=166 key=key_15"}
+{"ts_ms":3333,"event":"write_result","lsn":166,"key":"key_15","outcome":"COMMITTED","start_ms":3317,"end_ms":3333,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3334,"event":"info","type":"write","message":"Issued write lsn=167 key=key_16"}
+{"ts_ms":3350,"event":"write_result","lsn":167,"key":"key_16","outcome":"COMMITTED","start_ms":3334,"end_ms":3350,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3351,"event":"info","type":"write","message":"Issued write lsn=168 key=key_17"}
+{"ts_ms":3367,"event":"write_result","lsn":168,"key":"key_17","outcome":"COMMITTED","start_ms":3351,"end_ms":3367,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3368,"event":"info","type":"write","message":"Issued write lsn=169 key=key_18"}
+{"ts_ms":3384,"event":"write_result","lsn":169,"key":"key_18","outcome":"COMMITTED","start_ms":3368,"end_ms":3384,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3385,"event":"info","type":"write","message":"Issued write lsn=170 key=key_19"}
+{"ts_ms":3398,"event":"write_result","lsn":170,"key":"key_19","outcome":"COMMITTED","start_ms":3385,"end_ms":3398,"latency_ms":13,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3399,"event":"info","type":"write","message":"Issued write lsn=171 key=key_20"}
+{"ts_ms":3415,"event":"write_result","lsn":171,"key":"key_20","outcome":"COMMITTED","start_ms":3399,"end_ms":3415,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3416,"event":"info","type":"write","message":"Issued write lsn=172 key=key_21"}
+{"ts_ms":3431,"event":"write_result","lsn":172,"key":"key_21","outcome":"COMMITTED","start_ms":3416,"end_ms":3431,"latency_ms":15,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3432,"event":"info","type":"write","message":"Issued write lsn=173 key=key_22"}
+{"ts_ms":3448,"event":"write_result","lsn":173,"key":"key_22","outcome":"COMMITTED","start_ms":3432,"end_ms":3448,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3449,"event":"info","type":"write","message":"Issued write lsn=174 key=key_23"}
+{"ts_ms":3463,"event":"write_result","lsn":174,"key":"key_23","outcome":"COMMITTED","start_ms":3449,"end_ms":3463,"latency_ms":14,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3464,"event":"info","type":"write","message":"Issued write lsn=175 key=key_24"}
+{"ts_ms":3480,"event":"write_result","lsn":175,"key":"key_24","outcome":"COMMITTED","start_ms":3464,"end_ms":3480,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3481,"event":"info","type":"write","message":"Issued write lsn=176 key=key_0"}
+{"ts_ms":3495,"event":"write_result","lsn":176,"key":"key_0","outcome":"COMMITTED","start_ms":3481,"end_ms":3495,"latency_ms":14,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3496,"event":"info","type":"write","message":"Issued write lsn=177 key=key_1"}
+{"ts_ms":3512,"event":"write_result","lsn":177,"key":"key_1","outcome":"COMMITTED","start_ms":3496,"end_ms":3512,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3513,"event":"info","type":"write","message":"Issued write lsn=178 key=key_2"}
+{"ts_ms":3530,"event":"write_result","lsn":178,"key":"key_2","outcome":"COMMITTED","start_ms":3513,"end_ms":3530,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3531,"event":"info","type":"write","message":"Issued write lsn=179 key=key_3"}
+{"ts_ms":3547,"event":"write_result","lsn":179,"key":"key_3","outcome":"COMMITTED","start_ms":3531,"end_ms":3547,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3548,"event":"info","type":"write","message":"Issued write lsn=180 key=key_4"}
+{"ts_ms":3564,"event":"write_result","lsn":180,"key":"key_4","outcome":"COMMITTED","start_ms":3548,"end_ms":3564,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3565,"event":"info","type":"write","message":"Issued write lsn=181 key=key_5"}
+{"ts_ms":3583,"event":"write_result","lsn":181,"key":"key_5","outcome":"COMMITTED","start_ms":3565,"end_ms":3583,"latency_ms":18,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3584,"event":"info","type":"write","message":"Issued write lsn=182 key=key_6"}
+{"ts_ms":3599,"event":"write_result","lsn":182,"key":"key_6","outcome":"COMMITTED","start_ms":3584,"end_ms":3599,"latency_ms":15,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3600,"event":"info","type":"write","message":"Issued write lsn=183 key=key_7"}
+{"ts_ms":3614,"event":"write_result","lsn":183,"key":"key_7","outcome":"COMMITTED","start_ms":3600,"end_ms":3614,"latency_ms":14,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3615,"event":"info","type":"write","message":"Issued write lsn=184 key=key_8"}
+{"ts_ms":3632,"event":"write_result","lsn":184,"key":"key_8","outcome":"COMMITTED","start_ms":3615,"end_ms":3632,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3633,"event":"info","type":"write","message":"Issued write lsn=185 key=key_9"}
+{"ts_ms":3646,"event":"write_result","lsn":185,"key":"key_9","outcome":"COMMITTED","start_ms":3633,"end_ms":3646,"latency_ms":13,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3647,"event":"info","type":"write","message":"Issued write lsn=186 key=key_10"}
+{"ts_ms":3665,"event":"write_result","lsn":186,"key":"key_10","outcome":"COMMITTED","start_ms":3647,"end_ms":3665,"latency_ms":18,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3666,"event":"info","type":"write","message":"Issued write lsn=187 key=key_11"}
+{"ts_ms":3684,"event":"write_result","lsn":187,"key":"key_11","outcome":"COMMITTED","start_ms":3666,"end_ms":3684,"latency_ms":18,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3685,"event":"info","type":"write","message":"Issued write lsn=188 key=key_12"}
+{"ts_ms":3701,"event":"write_result","lsn":188,"key":"key_12","outcome":"COMMITTED","start_ms":3685,"end_ms":3701,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3702,"event":"info","type":"write","message":"Issued write lsn=189 key=key_13"}
+{"ts_ms":3717,"event":"write_result","lsn":189,"key":"key_13","outcome":"COMMITTED","start_ms":3702,"end_ms":3717,"latency_ms":15,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3718,"event":"info","type":"write","message":"Issued write lsn=190 key=key_14"}
+{"ts_ms":3735,"event":"write_result","lsn":190,"key":"key_14","outcome":"COMMITTED","start_ms":3718,"end_ms":3735,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3736,"event":"info","type":"write","message":"Issued write lsn=191 key=key_15"}
+{"ts_ms":3750,"event":"write_result","lsn":191,"key":"key_15","outcome":"COMMITTED","start_ms":3736,"end_ms":3750,"latency_ms":14,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3751,"event":"info","type":"write","message":"Issued write lsn=192 key=key_16"}
+{"ts_ms":3766,"event":"write_result","lsn":192,"key":"key_16","outcome":"COMMITTED","start_ms":3751,"end_ms":3766,"latency_ms":15,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3767,"event":"info","type":"write","message":"Issued write lsn=193 key=key_17"}
+{"ts_ms":3783,"event":"write_result","lsn":193,"key":"key_17","outcome":"COMMITTED","start_ms":3767,"end_ms":3783,"latency_ms":16,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3784,"event":"info","type":"write","message":"Issued write lsn=194 key=key_18"}
+{"ts_ms":3802,"event":"write_result","lsn":194,"key":"key_18","outcome":"COMMITTED","start_ms":3784,"end_ms":3802,"latency_ms":18,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3803,"event":"info","type":"write","message":"Issued write lsn=195 key=key_19"}
+{"ts_ms":3823,"event":"write_result","lsn":195,"key":"key_19","outcome":"COMMITTED","start_ms":3803,"end_ms":3823,"latency_ms":20,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3824,"event":"info","type":"write","message":"Issued write lsn=196 key=key_20"}
+{"ts_ms":3838,"event":"write_result","lsn":196,"key":"key_20","outcome":"COMMITTED","start_ms":3824,"end_ms":3838,"latency_ms":14,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3839,"event":"info","type":"write","message":"Issued write lsn=197 key=key_21"}
+{"ts_ms":3852,"event":"write_result","lsn":197,"key":"key_21","outcome":"COMMITTED","start_ms":3839,"end_ms":3852,"latency_ms":13,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3853,"event":"info","type":"write","message":"Issued write lsn=198 key=key_22"}
+{"ts_ms":3867,"event":"write_result","lsn":198,"key":"key_22","outcome":"COMMITTED","start_ms":3853,"end_ms":3867,"latency_ms":14,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3868,"event":"info","type":"write","message":"Issued write lsn=199 key=key_23"}
+{"ts_ms":3886,"event":"write_result","lsn":199,"key":"key_23","outcome":"COMMITTED","start_ms":3868,"end_ms":3886,"latency_ms":18,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":3887,"event":"info","type":"write","message":"Issued write lsn=200 key=key_24"}
+{"ts_ms":3904,"event":"write_result","lsn":200,"key":"key_24","outcome":"COMMITTED","start_ms":3887,"end_ms":3904,"latency_ms":17,"note":"Committed after Secondary ACK (strict sync)."}
+{"ts_ms":4001,"event":"info","type":"consistency","message":"Primary and Secondary are consistent."}
